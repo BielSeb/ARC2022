@@ -3,8 +3,8 @@ import numpy as np
 from os import listdir
 from os.path import isfile, join
 
-IMAGES_PATH = 'C:\\Users\\Sebastian Bielmeier\\Documents\\GitHub\\Projekt2_try_stitching_3\\src'
-OUT_PATH = 'C:\\Users\\Sebastian Bielmeier\\Documents\\GitHub\\Projekt2_try_stitching_3\\out'
+IMAGES_PATH = 'C:\\Users\\Sebastian Bielmeier\\Documents\\GitHub\\ARC2022\\src'
+OUT_PATH = 'C:\\Users\\Sebastian Bielmeier\\Documents\\GitHub\\ARC2022\\out'
 
 def main():
     image_paths = sorted([f for f in listdir(IMAGES_PATH) if isfile(join(IMAGES_PATH, f)) and f.endswith('jpg')])
